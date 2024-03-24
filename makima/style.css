@@ -1,0 +1,153 @@
+
+
+:root{
+
+ --primary-color: rgb(250, 255, 90);
+}
+*{
+
+    margin: 0px;
+}
+.headerleft a{
+
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    justify-content:right;
+    margin: 40px;
+    margin-top: 0px;
+    text-decoration: none;
+    color: var(--primary-color);
+    background-color: rgb(243, 81, 73);
+    border-style:solid;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 0px;
+
+}
+.headerleft a:hover{
+   background-color: red;
+
+
+}
+
+.headerleft .home{
+    
+    margin: 0px 120px 0px 60px  !important;
+    background-color:blue;
+}
+header p{
+    font-family: "Rubik Bubbles", system-ui;
+    font-size: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+    color: var(--primary-color);
+}
+body{
+
+    background-image: url(1336080.png);
+    background-size: cover;
+}
+/* header end
+
+body start */
+.merkez .welove{
+    color: aliceblue;
+    font-family: "Holtwood One SC", serif;
+    font-size: 50px;
+    
+}
+
+.merkez .makima{
+    color: aliceblue;
+    font-family: "Holtwood One SC", serif;
+    font-size: 50px;
+    margin-left: 20px; 
+    color: rgb(255, 79, 79);
+    transition: 0.3s;
+}
+.merkez .makima:hover{
+
+    color: red;
+}
+.merkez{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;  
+    margin-top: 150px;
+}
+
+.explain{
+font-size: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 25px;
+
+}
+.explain p{
+    letter-spacing: 3px;
+    font-size: 24px;
+    font-family: "Playfair Display", serif;
+    color: var(--primary-color);
+    margin: 20px 100px;
+    
+}
+
+.buton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buton button{
+    padding: 25px;  
+    
+
+}
+.buton .ilk{
+
+    margin-right: 25px;
+    background-color: green;
+    border-style: solid ;
+    border-radius: 15px;
+    padding: 20px 30px;
+    text-decoration: none;
+    border-color: rgb(255, 255, 255);
+    
+}
+.buton .son{
+    border-style: solid ;
+    border-radius: 15px;
+    padding: 20px 30px;
+    background-color: rgb(255, 0, 0);
+    text-decoration: none;
+    border-color: rgb(255, 255, 255);
+
+}
+.buton .ilk:hover{
+    background-color: rgb(62, 134, 62) ;
+    transition: .5s;
+
+}
+.buton .son:hover{
+    background-color: rgb(255, 90, 90);
+    transition: 0.5s;
+
+}
+
+
+.buton .son:active{
+    background-color: rgb(171, 39, 39);
+    padding: 20px 20px;
+    border-radius: 100%;
+}
+.buton .ilk:active{
+
+    background-color: rgb(0, 255, 0);
+    padding: 20px 20px;
+    border-radius: 100%;
+}
